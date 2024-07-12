@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}   
+.clear{
+        clear: both;
+    }
+.continr{
+        width: 85%;
+        margin: auto;
+        padding-top: 13px;
+    }
+    .header{
+        position: fixed;
+        width: 100%;
+        z-index: 99;
+    }
+.header .logo{
+        width: 60%;
+        float: left;
+        color: white;
+        font-size: 20;
+        
+    
+    }
+header .nav{
+        width: 40%;
+        float: left;
+        list-style: none;
+}
+    
+
+.header .nav li{
+    
+    display: inline-block;
+}
+.header .nav li a{
+    text-decoration: none;
+    display: block;
+    padding: 13px 15px 13px;
+    text-transform:uppercase;
+    color: white;
+}
+.home{
+    background-image:url(../task1/imgs/background.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    
+}
+.homecontaint{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+
+}
+.homecontaint .title{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 40px;
+    width: 60%;
+}
+.homecontaint .homedis{
+    color:white ;
+    margin-bottom: 10px;
+}
+ .homecontaint .button{
+    background-color:#29a83e ;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    margin: 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color:rgba(0, 0,0, 0.4)
+}
+.studiocontaint{
+    text-align: center;
+}
+.studio{
+    margin-top: 8%;
+}
+.studio .title{
+    font-size: 9;
+    text-transform: uppercase;
+    word-spacing: 8;
+    letter-spacing: 7;
+    margin-bottom:15px ;
+    
+
+}
+.studiodis{
+    font-size: 18px;
+    margin-bottom: 50px;
+    color: gray;
+}
+.image{
+    justify-content: center;
+}
+img{
+    margin:10px;
+    width: 500;
+    height:250 ;
+}
+.people{
+    margin-top: 8%;
+    
+}
+.peoplec{
+    justify-content: center;
+}
+.people .title{
+    text-align: center;
+    font-size: 22;
+    text-transform: capitalize;
+    color: gray;
+    margin-bottom:40px ;
+
+}
+.peoplcon img{
+    width: 245;
+    height: 180;
+    padding-left:15px ;
+    
+}
+    
+
+.peoplcon{
+    float: left;
+    text-align: center;
+}
+.txt{
+    text-align: center;
+}
+    
+
+
+.txt p{
+    color: gray;
+}
+.footer{
+    margin-top: 10%;
+    background-image: url(../task1/imgs/form.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.footercon h2{
+    color:white;
+    font-size: 45;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+form{
+    margin-left: 25%;
+    padding-top: 20px;
+}
+.footercon{
+
+   background-color: rgb(179, 174, 169);
+   background-size: cover;
+   width:100%;
+   height: 50%;
+   margin-top: 5%;
+   position: absolute;
+   
+   
+}
+
+.input{
+    width: 250;
+    height: 35;
+    margin-bottom: 10px;
+}
+.in{
+    width:600px ;
+    height:35px ;
+    margin-bottom: 10px;
+}
+
+
+
+.foot p{
+    color: grey;
+}
+.foot .ti{
+    color: rgb(80, 77, 77);
+    font-size: 25;
+}
+.foot{
+    width: 16%;
+    float: left;
+    margin-left: 10%;
+    margin-top:7% ;
+    font-size: 16;
+    line-height:24px;
+    
+}
+
+.button{
+
+    background-color:#29a83e ;
+        border: 0;
+        border-radius: 5px;
+        color: white;
+        margin-left: 40%;
+        margin-top: 50px;
+        text-transform: capitalize;
+        cursor: pointer;
+        font-size: 16.5;
+        height: 40px;
+        width: 200px;}
+.pp{
+    color:rgb(41, 40, 40) ;
+     font-size: 18;
+     margin-top:2px;
+     margin-left: 110px;
+    
+}
+
+.icon{
+    margin-left:62%;
+    padding:20px ;
+    padding-left: 10px;
+}
