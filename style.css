@@ -42,7 +42,7 @@ header .nav{
     color: white;
 }
 .home{
-    background-image:url(../task1/imgs/background.jpg) ;
+    background-image:url(imgs/background.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -149,7 +149,7 @@ img{
 }
 .footer{
     margin-top: 10%;
-    background-image: url(../task1/imgs/form.jpg);
+    background-image: url(imgs/form.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
